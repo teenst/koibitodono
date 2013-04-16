@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+require 'r-fxxk'
+
+class Koibitodono < Brainfuck
+  nxt 'こ'
+  inc 'っ'
+  prv '、'
+  dec '恋'
+  opn '人'
+  cls '殿'
+  put "〜"
+  get '!'
+end
+
+puts Koibitodono.new.fuck(ARGF.read)
